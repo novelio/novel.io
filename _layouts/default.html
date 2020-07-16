@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+
+    <meta name="viewport" content="width=device-width">
+
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+    <div class="container">
+        <section class="content-body">
+            {{ content }}
+        </section>
+
+        <footer>
+            &copy; {{ 'now' | date: '%Y' }} novel i/o llc  &nbsp;//&nbsp; made with ❤️ in california
+        </footer>
+    </div>
+</body>
+</html>
