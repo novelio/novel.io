@@ -6,4 +6,4 @@ layout: default
 
 detail-oriented software and consulting, at your service.
 
-get in touch: cody \_at\_ novel \_dot\_ io
+get in touch: <a href="mailto:cody@novel.io">cody@novel.io</a>
