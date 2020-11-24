@@ -1,7 +1,9 @@
 ---
 ---
 
-html, body, div, section, footer {
+$ff-monospace: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
+
+html, body, div, section, footer, p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
     padding: 0;
 }
@@ -15,6 +17,23 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI",
         Roboto, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
         "Segoe UI Symbol";
+    line-height: 1;
+    color: #444;
+}
+
+a {
+    color: #6236ff;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #6236ff;
+    font-family: $ff-monospace;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    margin-bottom: 1rem;
 }
 
 .container {
@@ -29,6 +48,6 @@ body {
 
     footer {
         color: #999;
-        font-size: small;
+        margin-top: 0.5rem;
     }
 }
