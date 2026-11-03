@@ -1,4 +1,11 @@
-# Products listed on the home page, in display order.
+# Products listed on the home page, in display order. Each card shows a
+# two-letter mark (`monogram`) in place of a logo; `mark` sets its colors:
+# the tile, then the first and the second letter.
 - name: uptime, plz!
   url: https://uptimeplz.com
   description: website and service uptime monitoring, with alerts by email, sms, slack and webhook.
+  monogram: up
+  mark:
+    background: "#0f1311"
+    first: "#8bef6b"
+    second: "#e0f4dc"
