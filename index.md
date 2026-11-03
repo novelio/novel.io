@@ -8,8 +8,7 @@ detail-oriented software and consulting, at your service.
 
 get in touch: <a href="mailto:cody@novel.io">cody@novel.io</a>
 
-<section class="products">
-<h2>products</h2>
+<section class="products" aria-label="products">
 <ul>
 {% for product in site.data.products %}
 <li><a class="product-card" href="{{ product.url }}">
