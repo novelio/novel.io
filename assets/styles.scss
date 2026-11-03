@@ -60,9 +60,11 @@ p {
 }
 
 .products {
-    margin: 1.5rem 0 2rem;
+    margin: 1.5rem 0 1rem;
 
     h2 {
+        color: #000;
+        font-family: inherit;
         font-size: 1rem;
         margin-bottom: 1rem;
     }
@@ -78,7 +80,7 @@ p {
     }
 
     a {
-        font-family: $ff-monospace;
+        color: #000;
         font-weight: bold;
     }
 
