@@ -4,7 +4,7 @@
 # puts a short label, such as "beta", across the card's corner.
 - name: uptime, plz!
   url: https://uptimeplz.com
-  description: website and service uptime monitoring, with alerts by email, sms, slack and webhook.
+  description: website uptime monitoring with moxie
   ribbon: beta
   monogram: up
   mark:
