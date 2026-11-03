@@ -1,0 +1,4 @@
+# Products listed on the home page, in display order.
+- name: uptime, plz!
+  url: https://uptimeplz.com
+  description: website and service uptime monitoring, with alerts by email, sms, slack and webhook.
