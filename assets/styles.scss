@@ -75,6 +75,8 @@ p {
 }
 
 .product-card {
+    position: relative;
+    overflow: hidden;
     display: flex;
     align-items: center;
     gap: 1rem;
@@ -95,6 +97,27 @@ p {
         outline: 2px solid #6236ff;
         outline-offset: 2px;
     }
+}
+
+.product-card--ribbon {
+    padding-right: 3.5rem;
+}
+
+.product-ribbon {
+    position: absolute;
+    top: 1.75rem;
+    right: -2.5rem;
+    width: 9rem;
+    padding: 0.25rem 0;
+    transform: rotate(45deg);
+    background: #6236ff;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: bold;
+    letter-spacing: 0.08em;
+    line-height: 1;
 }
 
 .product-mark {

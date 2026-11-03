@@ -1,9 +1,11 @@
 # Products listed on the home page, in display order. Each card shows a
 # two-letter mark (`monogram`) in place of a logo; `mark` sets its colors:
-# the tile, then the first and the second letter.
+# the tile, then the first and the second letter. An optional `ribbon`
+# puts a short label, such as "coming soon", across the card's corner.
 - name: uptime, plz!
   url: https://uptimeplz.com
   description: website and service uptime monitoring, with alerts by email, sms, slack and webhook.
+  ribbon: coming soon
   monogram: up
   mark:
     background: "#0f1311"
